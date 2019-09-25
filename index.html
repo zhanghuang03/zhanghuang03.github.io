@@ -16,58 +16,11 @@
         homepage: 'docs/zkfc问题分析.md',
         repo: 'https://github.com/xuxueli/xxl-job/',
         coverpage: true,
-        loadNavbar: true,
+        loadNavbar: false,
         maxLevel: 5,
         auto2top: true,
 		executeScript: true,
     }
-
-    // append ad start
-    function initAd() {
-
-		// ad_html
-        var ad_html = '<hr>' +
-            '<div>' +
-            '<span style="color: silver;font-size: 25px;margin-right: 20px;">赞助方</span>' +
-            '<a style="text-decoration:underline;color: #65bd93;" href="../page/donate.html">成为赞助者！</a>' +
-            '</div>';
-
-        ad_html += '<table><tr>';
-
-        ad_html += '' +
-            '<td align="center" valign="middle" style="border:1px solid #dfe2e5;padding:6px 13px" >' +
-            '    <a href="https://coding.net/?utm_source=xuxueli&utm_content=xxl-job-document" title="Coding.net " target="_blank" >\n' +
-            '        <img style="height:35px; vertical-align: middle;" src="../static/images/logo_coding.jpeg" >\n' +
-            '    </a>' +
-            '</td>';
-
-        ad_html += '</tr></table>';
-
-        // ad_div
-        var ad_div = document.createElement("div");
-        ad_div.innerHTML = ad_html;
-
-        document.getElementById('一、简介').before(ad_div);
-        console.log('ad inited.');
-        return true;
-    }
-    // do init
-    var cycleCount = 0;
-    function initAdTimeout(){
-        if (cycleCount++ > 150) {
-            console.log('ad init over limit.');
-            return;
-        }
-        if(!initAd()) {
-            setTimeout(function () {
-                initAdTimeout()
-            }, 200);
-        } else {
-            console.log('ad init success.');
-        }
-    }
-    initAdTimeout();
-    // append ad end
 
 </script>
   </script>
