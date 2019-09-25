@@ -20,20 +20,6 @@
 	homepage: 'https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/XXL-JOB%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3.md',
     repo: 'https://github.com/InterestingLab/waterdrop/',
     name: 'Waterdrop',
-    plugins: [
-      function(hook, vm) {
-        hook.beforeEach(function (html) {
-          var url = 'https://github.com/zhanghuang03/zhanghuang03.github.io' + vm.route.file
-          var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
-
-          return editHtml
-            + html
-            + '\n----\n'
-            + 'Last modified 08/17 17:18 '
-            + editHtml
-        })
-      }
-    ],
     alias: {
       '/_sidebar.md': '/zh-cn/_sidebar.md',
       '/.*/_navbar.md': '/_navbar.md'
