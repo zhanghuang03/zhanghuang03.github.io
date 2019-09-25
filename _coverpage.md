@@ -1,9 +1,9 @@
 # zhanghuang03
 
-> 一个简单易用，高性能，能够应对海量数据的数据处理产品
+> 博客
 
-- 简单易用，灵活配置，无需开发
-- 实时流式处理
+- grus
+- bootes
 - 高性能
 - 海量数据处理能力
 - 模块化和插件化，易于扩展
@@ -12,7 +12,7 @@
 
 
 [GitHub](https://github.com/zhanghuang03/grus)
-[Get Started](/zh-cn/)
+[Get Started](/?id=项目介绍)
 
 <!-- 背景色 -->
 ![color](#C5EFF7)
