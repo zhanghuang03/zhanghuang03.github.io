@@ -13,6 +13,3 @@
 
 [GitHub](https://github.com/zhanghuang03/grus)
 [Get Started](/?id=项目介绍)
-
-<!-- 背景色 -->
-![color](#C5EFF7)
