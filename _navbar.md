@@ -1,2 +1,2 @@
-- [主页](/)
-- [下载](https://github.com/zhanghuang03)
+- [主页](https://zhanghuang03.github.io/)
+- [下载](https://github.com/zhanghuang03/)
