@@ -27,5 +27,22 @@
 
 </script>
 
+<!-- Add comments plugin for docsify -->
+<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 
+<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: 'c422ca57da0be032bf4b',
+        clientSecret: 'b3668a03e69c36b5374580fc38975f977d76c0f4',
+        repo: 'waterdrop',
+        owner: 'interestinglab',
+        admin: ['garyelephant', 'RickyHuo'],
+        // facebook-like distraction free mode
+        distractionFreeMode: false
+    })
+</script>
+
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </html>
